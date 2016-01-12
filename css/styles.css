@@ -5,6 +5,23 @@
   height: 75px;
   width: 150px;
   color: white;
+  border-color: white;
+}
+
+.btn:hover {
+  color: whitesmoke!important;
+}
+
+.btn:focus,.btn:active {
+   outline: none !important;
+}
+
+.btn:focus,.btn:hover {
+  color: whitesmoke;
+}
+
+.btn:active {
+  color: whitesmoke!important;
 }
 .btn-green {
   background-color: #63c480;
@@ -25,9 +42,21 @@
 
 .green-bg {
   background-color: #63c480;
+  color: white;
 }
 
 .orange-bg {
   background-color: #f09f6b;
   color: white;
+}
+ .greenHidden {
+   display: none;
+ }
+
+.orangeHidden {
+  display: none;
+}
+
+.blueHidden {
+  display: none;
 }
