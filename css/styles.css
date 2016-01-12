@@ -1,0 +1,19 @@
+#button-group {
+  padding-top: 2em;
+}
+.btn {
+  height: 75px;
+  width: 150px;
+  color: white;
+}
+.btn-green {
+  background-color: #63c480;
+}
+
+.btn-blue {
+  background-color: #3c56dd;
+}
+
+.btn-orange {
+  background-color: #f09f6b;
+}
