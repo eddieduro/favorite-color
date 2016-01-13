@@ -1,16 +1,19 @@
 $("document").ready(function() {
   $(".btn-blue").click(function() {
     $("body").toggleClass("blue-bg");
-    $(".btn-orange, .btn-green, .blueHidden").toggle();
+    $(this).siblings().toggle();
+    $(".blueHidden").slideToggle();
   });
 
   $(".btn-green").click(function() {
     $("body").toggleClass("green-bg");
-    $(".btn-orange, .btn-blue, .greenHidden").toggle();
+    $(this).siblings().toggle();
+    $(".greenHidden").slideToggle();
   });
 
   $(".btn-orange").click(function() {
     $("body").toggleClass("orange-bg");
-    $(".btn-green, .btn-blue, .orangeHidden").toggle();
+    $(this).siblings().toggle();
+    $(".orangeHidden").slideToggle();
   });
 });

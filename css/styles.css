@@ -60,3 +60,15 @@
 .blueHidden {
   display: none;
 }
+/*===========
+Controls
+============*/
+.controls li {
+  list-style: none;
+}
+.controls {
+  min-height: 60px;
+	width: 460px;
+	border-radius: 5px;
+	overflow: hidden;
+}
